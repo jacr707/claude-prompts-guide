@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claude Prompts Guide - Guía Interactiva</title>
+    <meta name="description" content="Guía completa sobre cómo estructurar prompts efectivos para Claude">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #030712 0%, #1a1f3a 50%, #030712 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #e2e8f0;
+            padding: 20px;
+        }
+
+        .container {
+            text-align: center;
+            max-width: 600px;
+            animation: slideDown 0.8s ease-out;
+        }
+
+        @keyframes slideDown {
+            from {
+                opacity: 0;
+                transform: translateY(-40px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        h1 {
+            font-size: 2.5em;
+            background: linear-gradient(120deg, #06b6d4, #8b5cf6, #f59e0b);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 20px;
+        }
+
+        .subtitle {
+            color: #94a3b8;
+            font-size: 1.1em;
+            margin-bottom: 40px;
+            line-height: 1.6;
+        }
+
+        .button-group {
+            display: flex;
+            gap: 15px;
+            flex-direction: column;
+            margin-bottom: 40px;
+        }
+
+        a {
+            padding: 15px 30px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1em;
+            transition: all 0.3s ease;
+            display: inline-block;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #06b6d4, #0891b2);
+            color: #fff;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(6, 182, 212, 0.3);
+        }
+
+        .btn-secondary {
+            background: linear-gradient(135deg, #8b5cf6, #7c3aed);
+            color: #fff;
+        }
+
+        .btn-secondary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(139, 92, 246, 0.3);
+        }
+
+        .features {
+            background: rgba(30, 41, 59, 0.6);
+            border: 1px solid #334155;
+            border-radius: 12px;
+            padding: 30px;
+            margin-top: 30px;
+            backdrop-filter: blur(10px);
+        }
+
+        .features h3 {
+            margin-bottom: 15px;
+            color: #cbd5e1;
+        }
+
+        .features ul {
+            list-style: none;
+            text-align: left;
+        }
+
+        .features li {
+            padding: 8px 0;
+            color: #cbd5e1;
+        }
+
+        .features li:before {
+            content: "✨ ";
+            color: #f59e0b;
+            margin-right: 8px;
+        }
+
+        .loader {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            border: 4px solid rgba(6, 182, 212, 0.2);
+            border-top: 4px solid #06b6d4;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-right: 10px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .small-text {
+            color: #64748b;
+            font-size: 0.9em;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>✨ Claude Prompts Guide</h1>
+        <p class="subtitle">
+            Guía completa e interactiva sobre cómo estructurar prompts efectivos para trabajar conmigo
+        </p>
+
+        <div class="button-group">
+            <a href="estructura_prompts_efectivos.html" class="btn-primary">
+                📚 Ir a la Guía de Prompts
+            </a>
+            <a href="claude_models_comparison.html" class="btn-secondary">
+                📊 Comparativa de Modelos
+            </a>
+        </div>
+
+        <div class="features">
+            <h3>📌 ¿Qué encontrarás?</h3>
+            <ul>
+                <li>Los 5 elementos fundamentales de un buen prompt</li>
+                <li>4 fórmulas comprobadas que puedes usar como plantilla</li>
+                <li>10 errores comunes y cómo evitarlos</li>
+                <li>8 técnicas avanzadas de prompting</li>
+                <li>Comparativa completa de modelos Claude</li>
+                <li>Ejemplos reales y aplicables inmediatamente</li>
+            </ul>
+        </div>
+
+        <p class="small-text">
+            🚀 Todo en HTML interactivo, sin necesidad de instalación
+        </p>
+    </div>
+</body>
+</html>

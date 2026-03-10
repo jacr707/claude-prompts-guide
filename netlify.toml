@@ -1,0 +1,23 @@
+# Configuración de Netlify para Claude Prompts Guide
+# Este archivo especifica cómo debe compilarse y desplegarse el sitio
+
+[build]
+# Comando de build (en este caso, no necesitamos build)
+command = "echo 'No build required for static HTML'"
+# Directorio donde están los archivos a servir
+publish = "."
+
+# Redirecciones para manejar SPA (Single Page Application)
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
+
+# Headers de seguridad
+[[headers]]
+for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    Referrer-Policy = "strict-origin-when-cross-origin"
