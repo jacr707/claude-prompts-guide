@@ -4,7 +4,7 @@ Una guía completa e interactiva sobre cómo estructurar prompts efectivos para 
 
 ## 📂 Archivos Incluidos
 
-### 1. `estructura_prompts_efectivos.html`
+### 1. `guia-prompts.html`
 **Guía Interactiva de Prompts Efectivos**
 
 Una guía completa con 5 secciones principales:
@@ -43,7 +43,7 @@ Visualiza y compara los modelos de Claude:
    ```
 
 2. **Abre los archivos en tu navegador:**
-   - Simplemente haz doble-clic en `estructura_prompts_efectivos.html`
+   - Simplemente haz doble-clic en `guia-prompts.html`
    - O arrástralo a tu navegador
    - No requieren instalación ni dependencias
 
